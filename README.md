@@ -145,7 +145,7 @@ $accounts = $client->accounts();
 All the accounts the user has access to
 
 ```php
-$response = $accounts->list($options);
+$response = $accounts->all($options);
 ```
 
 ##### Retrieve an account (GET /accounts/:account_id)
@@ -189,7 +189,7 @@ The following arguments are required:
  * __account_id__: Identifier of the account
 
 ```php
-$response = $people->list("b3ebe711-755e-4a91-b8d2-0cc028827bcf", $options);
+$response = $people->all("b3ebe711-755e-4a91-b8d2-0cc028827bcf", $options);
 ```
 
 ### Conversations api
@@ -209,7 +209,7 @@ The following arguments are required:
  * __account_id__: Identifier of the account
 
 ```php
-$response = $conversations->list("b3ebe711-755e-4a91-b8d2-0cc028827bcf", "false", $options);
+$response = $conversations->all("b3ebe711-755e-4a91-b8d2-0cc028827bcf", "false", $options);
 ```
 
 ##### Create a conversation (POST /accounts/:account_id/conversations)

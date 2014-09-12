@@ -22,7 +22,7 @@ class Accounts
      *
      * '/accounts' GET
      */
-    public function list(array $options = array())
+    public function all(array $options = array())
     {
         $body = (isset($options['query']) ? $options['query'] : array());
 

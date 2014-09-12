@@ -24,7 +24,7 @@ class People
      *
      * @param $account_id Identifier of the account
      */
-    public function list($account_id, array $options = array())
+    public function all($account_id, array $options = array())
     {
         $body = (isset($options['query']) ? $options['query'] : array());
 
