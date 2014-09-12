@@ -1,0 +1,27 @@
+{
+	"name": "helpful/helpful",
+	"version": "1.0.0",
+	"description": "Official Helpful API library client for PHP",
+	"homepage": "https://helpful.io",
+	"authors": [
+		{
+			"name": "Pavan Kumar Sunkara",
+			"email": "pavan.sss1991@gmail.com",
+			"homepage": "http://assemblymade.com/helpful"
+		}
+	],
+	"keywords": ["alpaca", "helpful", "assemblymade", "api", "client", "library"],
+	"autoload": {
+		"psr-0": {
+			"Helpful\\": "lib/"
+		}
+	},
+	"require": {
+		"ext-json": "*",
+		"guzzle/guzzle": "3.7.*"
+	},
+	"support": {
+		"issues": "https://github.com/asm-helpful/helpful-php/issues"
+	},
+	"license": "MIT"
+}
